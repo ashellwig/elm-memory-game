@@ -15,19 +15,19 @@ main =
 
 
 
--- MODEL
+-- TYPES
 
 
 type alias Model =
     {}
 
 
-
--- MSG
-
-
 type Msg
     = NoOp
+
+
+
+-- MODEL
 
 
 createModel : ( Model, Cmd Msg )
@@ -48,6 +48,23 @@ update msg model =
 -- VIEW
 
 
+createCard : Html Msg
+createCard =
+    div [ class "container" ]
+        -- try: changing ("flipped", False) into ("flipped", True)
+        [ div [ classList [ ( "card", True ), ( "flipped", True ) ] ]
+            [ div [ class "card-back" ] []
+            , div [ class "front card-dinosaur" ] []
+            ]
+        ]
+
+
 view : Model -> Html Msg
 view model =
-    h1 [] [ text "There you go!" ]
+    div [ class "wrapper" ]
+        [ createCard
+        , createCard
+        , createCard
+        , createCard
+        , createCard
+        ]
