@@ -1,0 +1,56 @@
+repo_name: ashellwig/elm-memory-game
+report_id: feead7613ed99853a3ffb00e40ffefc4
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-07T04:24:45+00:00'
+requested_by: ashellwig
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Elm
+  description: A type inferred, functional reactive language that compiles to HTML,
+    CSS, and JavaScript
+  website_url: http://package.elm-lang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/4009/default_2928dddce9b68e183e2cb320173ea0f72f1d612b.png
+  detection_source_url: https://github.com/ashellwig/elm-memory-game
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashellwig/elm-memory-game
+  detection_source: Repo Metadata
+- name: elm-lang/core
+  description: Elm's standard libraries
+  package_url: http://package.elm-lang.org/elm-lang/core
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-memory-game/blob/master/elm-package.json
+  detection_source: elm-package.json
+  last_updated_by: Ashton Hellwig
+  last_updated_on: 2018-01-04 07:49:23.000000000 Z
+- name: elm-lang/html
+  description: Fast HTML, rendered with virtual DOM diffing
+  package_url: http://package.elm-lang.org/elm-lang/html
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/elm/image.png
+  detection_source_url: https://github.com/ashellwig/elm-memory-game/blob/master/elm-package.json
+  detection_source: elm-package.json
+  last_updated_by: Ashton Hellwig
+  last_updated_on: 2018-01-04 07:49:23.000000000 Z
